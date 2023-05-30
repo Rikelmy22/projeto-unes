@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    height: 100vh;
+    width: 98vw;
+    background-color: rgba(181, 219, 232, 0.19);
+}
+
+img {
+    width: 100%;
+}
+
+#conteudo {
+    width: 1000px;
+    background-color: #fff;
+    margin: 0px auto;
+}
+
+#conteudo > header {
+    margin-bottom: 30px;
+}
+
+#conteudo > header > #logo {
+   margin: 10px 450px 10px 5px;
+}
+
+#conteudo > header > #logo, #menu {
+    display: inline-block;
+}
+
+#conteudo > header > nav > ul {
+    display: block;
+}
+
+#conteudo > header > #menu > nav >  ul > li {
+    display: inline-block;
+    transform: translateY(-19px);
+    border-right: 1px solid black;
+    padding-right: 4px;
+}
+
+#conteudo > header > #menu > nav >  ul > li#border-none {
+    border-right: none;
+}
+
+#conteudo > main > section#sobre-a-universidade {
+    text-align: justify;
+    padding: 5px;
+    font-family: sans-serif;
+}
+
+#conteudo > main > section#sobre-a-universidade > h1 {
+   margin: 15px ;
+}
+
+#conteudo > main > section#sobre-a-universidade > p {
+    line-height: 24px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    font-weight: bolder;
+    font-size: 1.3em;
+}
