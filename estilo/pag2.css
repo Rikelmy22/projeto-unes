@@ -1,6 +1,52 @@
 @charset "UTF-8";
 
 * {
+    font-family: sans-serif;
     margin: 0px;
     padding: 0px;
 }
+
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+
+#conteudo > header {
+    margin-bottom: 30px;
+}
+
+#conteudo > header > #logo {
+   margin: 10px 550px 10px 5px;
+}
+
+#conteudo > header > #logo, #menu {
+    display: inline-block;
+     
+}
+
+#conteudo > header > #menu > nav > ul {
+    display: block;
+}
+
+#conteudo > header > #menu > nav >  ul > li {
+    display: inline-block;
+    transform: translateY(-19px);
+    border-right: 1px solid black;
+    padding-right: 4px;
+}
+
+#conteudo > header > #menu > nav >  ul > li#border-none {
+    border-right: none;
+}
+
+
+#conteudo > main > h1 {
+    margin: 20px;
+}
+
+
+#conteudo > main > h2 {
+    margin: 20px;
+}
+

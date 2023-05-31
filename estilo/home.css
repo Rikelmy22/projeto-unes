@@ -26,14 +26,15 @@ img {
 }
 
 #conteudo > header > #logo {
-   margin: 10px 450px 10px 5px;
+   margin: 10px 570px 10px 5px;
 }
 
 #conteudo > header > #logo, #menu {
     display: inline-block;
+     
 }
 
-#conteudo > header > nav > ul {
+#conteudo > header > #menu > nav > ul {
     display: block;
 }
 
