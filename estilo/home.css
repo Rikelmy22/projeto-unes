@@ -26,7 +26,7 @@ img {
 }
 
 #conteudo > header > #logo {
-   margin: 10px 570px 10px 5px;
+   margin: 10px 540px 10px 5px;
 }
 
 #conteudo > header > #logo, #menu {
@@ -64,6 +64,7 @@ img {
 }
 
 footer {
+    font-family: sans-serif;
     text-align: center;
     padding: 10px;
     font-weight: bolder;
